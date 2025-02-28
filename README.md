@@ -20,20 +20,13 @@ npm install
 
 ### 3. Configurar la base de datos MySQL
 ## Edita el script init-db.sql ubicado en la raíz del proyecto y ponle un nombre de tu preferencia a la base de datos. (store-db) por ejemplo
-## Ejecuta el script con el siguiente comando:
+## Ejecuta el siguiente comando:
 ```bash
-mysql -u [tu_usuario] -p < init-db.sql
+mysql -u [tu_usuario] -p
 ```
+## Digita la contraseña de tu usuario y a continuación copia y pega el contenido de init-db.sql en la consola.
+## Tambien puedes ejecutar el script directamente en tu MySQL Workbench
 
-## Verificar la base de datos
-```bash
-mysql -u [tu_usuario] -p nombre_de_tu_base_de_datos
-```
-## Luego, ejecuta:
-```bash
-SHOW TABLES;
-SELECT * FROM products;
-```
 ### 4. Configurar variables de entorno
 ## Crear un archivo .env en la raíz del proyecto con la siguiente variable
 ```bash

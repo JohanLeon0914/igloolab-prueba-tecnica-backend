@@ -1,6 +1,6 @@
-CREATE DATABASE IF NOT EXISTS nombre_de_tu_base_de_datos;
+CREATE DATABASE IF NOT EXISTS ejemplo_base_de_datos;
 
-USE nombre_de_tu_base_de_datos;
+USE ejemplo_base_de_datos;
 
 CREATE TABLE IF NOT EXISTS products (
   id INT AUTO_INCREMENT PRIMARY KEY,
