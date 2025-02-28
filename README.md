@@ -19,7 +19,7 @@ npm install
 ```
 
 ### 3. Configurar la base de datos MySQL
-## Edita el script init-db.sql ubicado en la raíz del proyecto y ponle un nombre de tu preferencia a la base de datos. (store-db) por ejemplo
+## Edita el script init-db.sql ubicado en la raíz del proyecto y reemplaza nombre_de_tu_base_de_datos por un nombre de tu preferencia. (store-db) por ejemplo
 ## Ejecuta el siguiente comando:
 ```bash
 mysql -u [tu_usuario] -p
