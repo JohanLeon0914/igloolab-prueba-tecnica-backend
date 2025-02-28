@@ -25,7 +25,7 @@ npm install
 mysql -u [tu_usuario] -p
 ```
 ## Digita la contraseña de tu usuario y a continuación copia y pega el contenido de init-db.sql en la consola.
-## Tambien puedes ejecutar el script directamente en tu MySQL Workbench
+## Tambien puedes ejecutar el script init-db.sql directamente en tu MySQL Workbench
 
 ### 4. Configurar variables de entorno
 ## Crear un archivo .env en la raíz del proyecto con la siguiente variable
