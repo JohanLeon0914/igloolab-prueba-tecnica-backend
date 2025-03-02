@@ -41,7 +41,7 @@ PORT=3001
 ```bash
 npm run dev
 ```
-## El servidor frontend estará disponible en: http://localhost:3001
+## El servidor backend estará disponible en: http://localhost:3001
 
 
 
